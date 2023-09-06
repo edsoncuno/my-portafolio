@@ -11,6 +11,7 @@
   justify-content: space-between;
   padding: 0 var(--padding);
   align-items: center;
+  z-index: 9;
 }
 
 .app .logo {

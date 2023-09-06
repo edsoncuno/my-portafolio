@@ -1,4 +1,6 @@
 import styles from "./Proyectos.module.css";
+import Cards from "./Cards";
+
 export default function App() {
   return (
     <section id="section_proyectos">
@@ -35,6 +37,7 @@ export default function App() {
         a man who chooses to enjoy a pleasure that has no annoying consequences,
         or one who avoids a pain that produces no resultant pleasure?
       </p>
+      <Cards />
     </section>
   );
 }

@@ -2,7 +2,7 @@ import styles from "./AcercaDeMi.module.css";
 
 export default function App() {
   return (
-    <section id="section_acerca_de_mi">
+    <section id="section_acerca_de_mi" className={styles.app}>
       <h2>Acerca de mi</h2>
       <p>
         But I must explain to you how all this mistaken idea of denouncing
@@ -36,6 +36,18 @@ export default function App() {
         a man who chooses to enjoy a pleasure that has no annoying consequences,
         or one who avoids a pain that produces no resultant pleasure?
       </p>
+      <div className={styles.presentation}>
+        <div className={styles.text1}>Hola</div>
+        <div className={styles.text2}>Soy Edson Cuno</div>
+        <div className={styles.photo}></div>
+        <div className={styles.text3}>Estudiante de Ingeniería Informática</div>
+        <div className={styles.text4}>
+          Soy Edson Diego Cuno Tipso. Nací y resido en Lima - Perú. Soy
+          estudiante de la Universidad Ricardo Palma, interesado en el
+          desarrollo de aplicaciones y servicos web.
+        </div>
+      </div>
+      <div className={styles.tools}></div>
     </section>
   );
 }
