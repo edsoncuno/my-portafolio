@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap");
 
 :root {
   --header-height: 4rem;
   --padding: 10%;
-  --color-1: #415D65;
+  --color-1: #415d65;
   --color-2: #fab001;
 }
 

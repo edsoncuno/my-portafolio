@@ -1,53 +1,15 @@
 import styles from "./AcercaDeMi.module.css";
 
+import Skills from "./Skills";
+import Tools from "./Tools";
+import Introduction from "./Introduction";
+
 export default function App() {
   return (
     <section id="section_acerca_de_mi" className={styles.app}>
-      <h2>Acerca de mi</h2>
-      <p>
-        But I must explain to you how all this mistaken idea of denouncing
-        pleasure and praising pain was born and I will give you a complete
-        account of the system, and expound the actual teachings of the great
-        explorer of the truth, the master-builder of human happiness. No one
-        rejects, dislikes, or avoids pleasure itself, because it is pleasure,
-        but because those who do not know how to pursue pleasure rationally
-        encounter consequences that are extremely painful. Nor again is there
-        anyone who loves or pursues or desires to obtain pain of itself, because
-        it is pain, but because occasionally circumstances occur in which toil
-        and pain can procure him some great pleasure. To take a trivial example,
-        which of us ever undertakes laborious physical exercise, except to
-        obtain some advantage from it? But who has any right to find fault with
-        a man who chooses to enjoy a pleasure that has no annoying consequences,
-        or one who avoids a pain that produces no resultant pleasure?
-      </p>
-      <p>
-        But I must explain to you how all this mistaken idea of denouncing
-        pleasure and praising pain was born and I will give you a complete
-        account of the system, and expound the actual teachings of the great
-        explorer of the truth, the master-builder of human happiness. No one
-        rejects, dislikes, or avoids pleasure itself, because it is pleasure,
-        but because those who do not know how to pursue pleasure rationally
-        encounter consequences that are extremely painful. Nor again is there
-        anyone who loves or pursues or desires to obtain pain of itself, because
-        it is pain, but because occasionally circumstances occur in which toil
-        and pain can procure him some great pleasure. To take a trivial example,
-        which of us ever undertakes laborious physical exercise, except to
-        obtain some advantage from it? But who has any right to find fault with
-        a man who chooses to enjoy a pleasure that has no annoying consequences,
-        or one who avoids a pain that produces no resultant pleasure?
-      </p>
-      <div className={styles.presentation}>
-        <div className={styles.text1}>Hola</div>
-        <div className={styles.text2}>Soy Edson Cuno</div>
-        <div className={styles.photo}></div>
-        <div className={styles.text3}>Estudiante de Ingeniería Informática</div>
-        <div className={styles.text4}>
-          Soy Edson Diego Cuno Tipso. Nací y resido en Lima - Perú. Soy
-          estudiante de la Universidad Ricardo Palma, interesado en el
-          desarrollo de aplicaciones y servicos web.
-        </div>
-      </div>
-      <div className={styles.tools}></div>
+      <Introduction />
+      <Tools />
+      <Skills />
     </section>
   );
 }

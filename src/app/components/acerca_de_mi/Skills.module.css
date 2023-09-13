@@ -1,0 +1,25 @@
+.app {
+  width: 100%;
+}
+
+.app .container {
+  padding: 1rem;
+  display: grid;
+  /*nota: donde dice 8rem es el ancho del item a utilizar*/
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 1rem;
+}
+.app .container .item {
+  width: 8rem;
+  height: 10rem;
+}
+
+.app .container .item .icon {
+  width: 100%;
+  height: 80%;
+}
+
+.app .container .item .name {
+  font-weight: bold;
+  text-align: center;
+}

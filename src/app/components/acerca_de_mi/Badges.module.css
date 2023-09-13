@@ -1,0 +1,34 @@
+.app {
+  width: 100%;
+  padding: 0.5rem;
+  display: grid;
+  /*nota: donde dice 8rem es el ancho del item a utilizar*/
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0.5rem;
+}
+
+.app .item {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20%;
+}
+
+.app .item .icon {
+  width: 100%;
+  height: 90%;
+}
+
+.app .item .name {
+  width: 100%;
+  height: 10%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+}

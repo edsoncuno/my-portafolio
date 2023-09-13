@@ -1,30 +1,35 @@
-.app .presentation {
+.app {
+  background-color: white;
+}
+
+.app .content {
   display: flex;
   flex-direction: column;
 }
-.app .presentation .text1 {
+
+.app .content .text1 {
   font-size: 1.5rem;
 }
 
-.app .presentation .text2 {
+.app .content .text2 {
   font-size: 3rem;
   font-weight: bold;
 }
-.app .presentation .photo {
-width: 20rem;
-height: 20rem;
-background-image: url("https://i.postimg.cc/05D8B7B2/perfil2.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-border-radius: 50%;
+.app .content .photo {
+  width: 20rem;
+  height: 20rem;
+  background-image: url("https://i.postimg.cc/05D8B7B2/perfil2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 
-.app .presentation .text3 {
+.app .content .text3 {
   font-size: 2rem;
 }
 
-.app .presentation .text4 {
+.app .content .text4 {
   padding-top: 1rem;
   font-size: 1.2rem;
 }

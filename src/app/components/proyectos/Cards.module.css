@@ -6,11 +6,7 @@
 }
 
 .app .card {
-  text-decoration: none;
   color: black;
-}
-
-.app .card .container {
   width: 100%;
   height: 9rem;
   display: grid;
@@ -20,18 +16,18 @@
   border-radius: 1rem;
 }
 
-.app .card .container:hover {
+.app .card:hover {
   box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.2);
   transform: scale(1.01);
 }
 
-.app .card .container .image {
+.app .card .image {
   grid-column: 1/2;
   grid-row: 1/2;
   margin: 1rem;
   border-radius: 1rem;
 }
-.app .card .container .text {
+.app .card .text {
   grid-column: 2/3;
   grid-row: 1/2;
   display: flex;
@@ -39,26 +35,54 @@
   justify-content: center;
 }
 
-.app .card .container .text .name {
+.app .card .text .name {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
+.app .card .text .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app .card .text .icons a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.6rem 0.9rem;
+  border: none;
+  background-color: #6366f1;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.app .card .text .icons a:hover {
+  background-color: #4f46e5;
+}
+
 @media (max-width: 750px) {
-  .app .card .container {
+  .app .card {
     height: 18rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
 
-  .app .card .container .image {
+  .app .card .image {
     grid-column: 1/2;
     grid-row: 1/2;
     margin: 0.5rem;
   }
-  .app .card .container .text {
+  .app .card .text {
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: center;
+  }
+
+  .app .card .text .icons {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
