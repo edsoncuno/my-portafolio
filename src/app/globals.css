@@ -4,8 +4,10 @@
 :root {
   --header-height: 4rem;
   --padding: 10%;
-  --color-1: #415d65;
-  --color-2: #fab001;
+  --color1: #f9f7f7;
+  --color2: #dbe2ef;
+  --color3: #3f72af;
+  --color4: #112d4e;
 }
 
 * {
