@@ -4,7 +4,8 @@ import Badges from "./Badges";
 export default function App() {
   const skills = [
     {
-      url: "/../../../../skills/fastapi-1.svg",
+      url: "../../../../skills/fastapi-1.svg",
+      //url: "/../../../../skills/fastapi-1.svg",
       name: "FastAPI",
       shadowColor: "#05998b",
     },
