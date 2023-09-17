@@ -22,7 +22,12 @@ export default function App() {
               <div className={styles.iconGithub}></div>
               <div>Github</div>
             </a>
-            <a>
+            <a
+              href={
+                "https://www.linkedin.com/in/edson-diego-cuno-tipso-aa760028b/"
+              }
+              target="_blank"
+            >
               <div className={styles.iconLinkedIn}></div>
               <div>LinkedIn</div>
             </a>
