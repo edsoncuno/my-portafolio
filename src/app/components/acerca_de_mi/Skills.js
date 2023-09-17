@@ -61,7 +61,7 @@ export default function App() {
     {
       url: "./skills/sass-svgrepo-com.svg",
       name: "Sass",
-      shadowColor: "#53c1de",
+      shadowColor: "#ce6c9c",
     },
   ];
 
