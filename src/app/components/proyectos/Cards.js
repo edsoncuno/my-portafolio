@@ -6,7 +6,7 @@ export default function App() {
       name: "Flights NestJS",
       description:
         "Backend de la aplicacion 'Flights' que administra el registro de los vuelos.",
-      url: "./img/projects/nestjs-original-fligh.jpg",
+      url: "./nestjs-original-fligh.jpg",
       hrefRepo: "https://github.com/edsoncuno/flights-nestjs",
       hrefDemo: "",
       icons: [

@@ -8,5 +8,34 @@
 
 .app .container {
   width: 100%;
-  height: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.app .container .left {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app .container .left h2 {
+  font-size: 2rem;
+}
+
+.app .container .left p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.app .container .right {
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+  background-image: url("./img/one-gif.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

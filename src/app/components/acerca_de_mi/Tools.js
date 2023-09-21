@@ -42,12 +42,14 @@ export default function App() {
 
   return (
     <div className={styles.app}>
-      <h3>Herramientas</h3>
-      <p>
-        Mi conjunto de herramientas tecnológicas que utilizo para aumentar mi
-        eficacia y creatividad en el mundo de la informática, que normalmente
-        uso, son:
-      </p>
+      <div className={styles.text}>
+        <h3>Herramientas</h3>
+        <p>
+          Mi conjunto de herramientas tecnológicas que utilizo para aumentar mi
+          eficacia y creatividad en el mundo de la informática, que normalmente
+          uso, son:
+        </p>
+      </div>
       <div className={styles.container}>
         <Badges list={tools} />
       </div>

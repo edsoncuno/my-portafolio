@@ -7,7 +7,7 @@ export default function App() {
 
   const sections = [
     { href: "#section_inicio", name: "INICIO" },
-    { href: "#section_acerca_de_mi", name: "ACERCA DE MI" },
+    { href: "#section_acerca_de_mi", name: "ACERCA DE MÍ" },
     { href: "#section_proyectos", name: "PROYECTOS" },
   ];
 
