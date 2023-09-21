@@ -6,7 +6,7 @@ export default function App() {
       name: "Flights NestJS",
       description:
         "Backend de la aplicacion 'Flights' que administra el registro de los vuelos.",
-      url: "/../../../../projects/nestjs-original-fligh.jpg",
+      url: "./img/nestjs-original-fligh.jpg",
       hrefRepo: "https://github.com/edsoncuno/flights-nestjs",
       hrefDemo: "",
       icons: [
@@ -18,7 +18,7 @@ export default function App() {
     {
       name: "Flights AngularJS",
       description: "Frontend de la aplicacion 'Flights' hecha en AngularJS.",
-      url: "/../../../../projects/angular.png",
+      url: "./img/angular.png",
       hrefRepo: "https://github.com/edsoncuno/flights-angularjs",
       hrefDemo: "",
       icons: [
@@ -31,7 +31,7 @@ export default function App() {
     {
       name: "Flights React",
       description: "Frontend de la aplicacion 'Flights' hecha en React.",
-      url: "/../../../../projects/rn.png",
+      url: "./img/rn.png",
       hrefRepo: "https://github.com/edsoncuno/flights-react",
       hrefDemo: "",
       icons: [
@@ -44,7 +44,7 @@ export default function App() {
     {
       name: "Flights Vue.js",
       description: "Frontend de la aplicacion 'Flights' hecha en Vue.js",
-      url: "/../../../../projects/vuejs-ar21.png",
+      url: "./img/vuejs-ar21.png",
       hrefRepo: "https://github.com/edsoncuno/flights-vuejs",
       hrefDemo: "",
       icons: [
@@ -58,7 +58,7 @@ export default function App() {
     {
       name: "Panaderia Vue.js",
       description: "Pagina web como ejemplo para una panaderia",
-      url: "/../../../../projects/th.png",
+      url: "./img/th.png",
       hrefRepo: "https://github.com/edsoncuno/panaderia-vuejs",
       hrefDemo: "https://edsoncuno.github.io/my-panaderia/",
       icons: [

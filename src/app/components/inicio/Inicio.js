@@ -24,7 +24,7 @@ export default function App() {
             </a>
             <a
               href={
-                "https://www.linkedin.com/in/edson-diego-cuno-tipso-aa760028b/"
+                "https://www.linkedin.com/in/edson-diego-cuno-tipso"
               }
               target="_blank"
             >
