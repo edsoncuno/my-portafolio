@@ -6,7 +6,7 @@ export default function App() {
       name: "Flights NestJS",
       description:
         "Backend de la aplicacion 'Flights' que administra el registro de los vuelos.",
-      url: "./projects/nestjs-original-fligh.jpg",
+      url: "./img/projects/nestjs-original-fligh.jpg",
       hrefRepo: "https://github.com/edsoncuno/flights-nestjs",
       hrefDemo: "",
       icons: [
@@ -139,7 +139,7 @@ function Card(props) {
               <a href={props.hrefDemo} target="_blank">
                 <div
                   style={{
-                    backgroundImage: `url("/../../../../website-svgrepo-com.svg")`,
+                    backgroundImage: `url("./website-svgrepo-com.svg")`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     width: "1rem",
