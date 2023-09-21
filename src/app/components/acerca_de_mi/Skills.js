@@ -67,11 +67,13 @@ export default function App() {
 
   return (
     <div className={styles.app}>
-      <h3>Habilidades</h3>
-      <p>
-        A lo largo de mi carrera, he adquirido experiencia en una variedad
-        tecnologías, incluyendo:
-      </p>
+      <div className={styles.text}>
+        <h3>Habilidades</h3>
+        <p>
+          A lo largo de mi carrera, he adquirido experiencia en una variedad
+          tecnologías, incluyendo:
+        </p>
+      </div>
       <Badges list={skills} />
     </div>
   );

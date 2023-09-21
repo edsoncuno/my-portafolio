@@ -2,6 +2,6 @@
   width: 100%;
 }
 
-.app .text {
-  width: 100%;
+.app .text h3 {
+  font-size: 1.5rem;
 }
