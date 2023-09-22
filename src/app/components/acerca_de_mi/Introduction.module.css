@@ -39,3 +39,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 940px) {
+  .app .container {
+    grid-template-columns: 1fr;
+  }
+  .app .container .right {
+    display: none;
+  }
+}

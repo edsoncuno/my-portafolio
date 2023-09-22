@@ -1,12 +1,14 @@
 import styles from "./Cards.module.css";
 
+import imagen1 from "./nestjs-original-fligh.jpg";
+
 export default function App() {
   const data = [
     {
       name: "Flights NestJS",
       description:
         "Backend de la aplicacion 'Flights' que administra el registro de los vuelos.",
-      url: "./nestjs-original-fligh.jpg",
+      url: "./img/projects/nestjs-original-fligh.jpg",
       hrefRepo: "https://github.com/edsoncuno/flights-nestjs",
       hrefDemo: "",
       icons: [
@@ -18,7 +20,7 @@ export default function App() {
     {
       name: "Flights AngularJS",
       description: "Frontend de la aplicacion 'Flights' hecha en AngularJS.",
-      url: "./projects/angular.png",
+      url: "./angular.png",
       hrefRepo: "https://github.com/edsoncuno/flights-angularjs",
       hrefDemo: "",
       icons: [
@@ -92,7 +94,7 @@ export default function App() {
 function Card(props) {
   const list = props.icons.map((item, index) => (
     <div
-      key={"id1_" + index}
+      key={"id1asd_" + index}
       style={{
         backgroundImage: `url(${item})`,
         backgroundPosition: "center",
@@ -110,7 +112,7 @@ function Card(props) {
       <div
         className={styles.image}
         style={{
-          backgroundImage: `url(${props.url})`,
+          backgroundImage: `url("${props.url}")`,
           backgroundPosition: "center",
           backgroundSize: "100% 100%",
           backgroundRepeat: "no-repeat",
