@@ -1,14 +1,12 @@
 import styles from "./Cards.module.css";
 
-import imagen1 from "./nestjs-original-fligh.jpg";
-
 export default function App() {
   const data = [
     {
       name: "Flights NestJS",
       description:
         "Backend de la aplicacion 'Flights' que administra el registro de los vuelos.",
-      url: "./img/projects/nestjs-original-fligh.jpg",
+      url: "./projects/nestjs-original-flight.jpg",
       hrefRepo: "https://github.com/edsoncuno/flights-nestjs",
       hrefDemo: "",
       icons: [
@@ -20,7 +18,7 @@ export default function App() {
     {
       name: "Flights AngularJS",
       description: "Frontend de la aplicacion 'Flights' hecha en AngularJS.",
-      url: "./angular.png",
+      url: "./projects/angular.png",
       hrefRepo: "https://github.com/edsoncuno/flights-angularjs",
       hrefDemo: "",
       icons: [
